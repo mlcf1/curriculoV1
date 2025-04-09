@@ -1,3 +1,45 @@
-v1{
-    color:black;
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+#v1{
+    color:rgb(4, 57, 136)
+}
+#v11 img{
+    width: 25%;
+    height: 50%;
+    margin-left: 3cm;
+    margin-top: 5px;
+    display: inline-block;
+}
+#nether{
+    color: rgb(155, 2, 2);
+}
+#v1text {
+    margin-left: 5cm;
+    display: inline-block;
+}
+#cidade {
+    margin-left: 5cm;
+}
+table{
+    text-align: center;
+    font-size: xx-large;
+    color: white;
+}
+h1{
+    color: white;
+}
+#tabela {
+border: 2px solid white;
+border-collapse: collapse;
+background-color: rgb(0, 0, 0);
+  transition: 0.5s;
+}
+td {
+    border: 2px solid;
+}
+    
+    #tabela.hover{
+    background-color: rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+    }
